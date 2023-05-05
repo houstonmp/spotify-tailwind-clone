@@ -1,4 +1,4 @@
-# Poolshark
+# Spotify Clone w/ React.js / Tailwind.css
 
 A Spotify clone created with Tailwind.css and React.js
 

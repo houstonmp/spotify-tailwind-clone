@@ -5,22 +5,22 @@ const CallToAction = () => {
         {
             'action': 'Download music.',
             'prompt': 'Listen anywhere',
-            'photo': 'url("/src/assets/img/music-notes.png")'
+            'photo': 'url(/src/assets/img/music-notes.png)'
         },
         {
             'action': 'Ad-free music listening.',
             'prompt': 'Enjoy nonstop music',
-            'photo': 'url("/src/assets/img/phone-skips.png")'
+            'photo': 'url(/src/assets/img/phone-skips.png)'
         },
         {
             'action': 'Play any song.',
             'prompt': 'Even on mobile.',
-            'photo': 'url("/src/assets/img/music.png")'
+            'photo': 'url(/src/assets/img/music.png)'
         },
         {
             'action': 'Unlimited skips.',
             'prompt': 'Just hit next',
-            'photo': 'url("/src/assets/img/phone.png")'
+            'photo': 'url(/src/assets/img/phone.png)'
         },
     ]
     return (<>

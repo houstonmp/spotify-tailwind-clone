@@ -1,6 +1,7 @@
 import Privacy from './Privacy'
 import FooterLinks from './FooterLinks';
 import SocialMedia from './SocialMedia';
+import Spotify from './UI/Spotify'
 
 const Footer = () => {
     const Links = [
@@ -73,7 +74,9 @@ const Footer = () => {
     return (
         <>
             <footer className="block bg-black pb-5">
-                <div className="block m-auto text-white pt-3 item">
+
+                <div className="block m-auto text-white pt-3 px-3.5 item">
+                    <Spotify classes="w-24 ml-3.5 mt-12" />
                     <FooterLinks section={Links[0]} />
                     <FooterLinks section={Links[1]} />
                     <FooterLinks section={Links[2]} />

@@ -23,6 +23,9 @@ export default {
       maxWidth: {
         '400': '400px',
       },
+      flexGrow: {
+        2: '2'
+      }
     },
   },
   plugins: [],

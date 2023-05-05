@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.btn-transition {
+  transition: all 33ms;
+}
+
+.btn-transition:hover {
+  transform: scale(1.04);
+}
+
+.checked {
+  margin-bottom: 1rem;
+  background: url(/src/assets/img/check.svg) no-repeat left top;
+  padding: 0px 0 3px 34px;
+}
